@@ -1,0 +1,5 @@
+#include "stdafx.h"
+#include "Picking.h"
+#include "Object.h"
+#include "ModelAssembly.h"
+#include "Model.h"

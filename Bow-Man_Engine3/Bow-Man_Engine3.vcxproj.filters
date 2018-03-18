@@ -1,0 +1,511 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\00.Etc">
+      <UniqueIdentifier>{7e358d28-ef14-44e7-8603-13c780dfa77c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\01.Framework">
+      <UniqueIdentifier>{07fa9c84-dc33-4ae2-9064-b2784dd93921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\04.Timer">
+      <UniqueIdentifier>{6739c7cd-6a2c-471e-af2b-f1e201bfe7dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03.Resource">
+      <UniqueIdentifier>{6b248e13-409f-4427-b60c-5d02a0d406b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\05.Object">
+      <UniqueIdentifier>{b22b70e9-e4d0-4290-9c7f-16986beb4b33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\01.Framework\Chat">
+      <UniqueIdentifier>{ed4ec502-67df-44e7-8398-bf589052a643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\06.Scene">
+      <UniqueIdentifier>{02adc2ab-b10d-4eda-8f90-7783bf234081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\05.Object\Camera">
+      <UniqueIdentifier>{14ddba70-09b6-44fd-ab3a-239202096347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\05.Object\Player">
+      <UniqueIdentifier>{f9565387-794a-459a-86f2-5b8b5389da68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\05.Object\Light">
+      <UniqueIdentifier>{f81ddad0-fc8d-4df2-9f31-c5a63cdf9043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\99.Server">
+      <UniqueIdentifier>{a8f35832-6e8e-4c8f-868f-e9ad2b783735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\01.Framework\2DFramework">
+      <UniqueIdentifier>{48211033-99c5-4ffb-9ade-49a1d2b34706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\01.Framework\Input Framework">
+      <UniqueIdentifier>{dd6091b6-1970-4064-90e7-07c16b3883ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\01.Framework\Main Framework">
+      <UniqueIdentifier>{71a503eb-a30a-4dcf-9041-b2fefd1e562d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03.Resource\Renderer">
+      <UniqueIdentifier>{c699b92d-49f3-419b-ad42-caecdabd67d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03.Resource\ModelData">
+      <UniqueIdentifier>{8b6ff93f-632a-409f-adbb-f61d9f8fcc6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL">
+      <UniqueIdentifier>{daa3be80-9583-4a40-b749-7ae8bb605c1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\99.Header">
+      <UniqueIdentifier>{18c1c1e6-eee4-40a2-8f54-eaa590e2f5e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03.Resource\etc">
+      <UniqueIdentifier>{c909c208-c83a-46bb-bab9-3ac7999d1796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03.Resource\Loader">
+      <UniqueIdentifier>{2bf35553-d86a-4e3d-aab9-3fe5bdb0b5ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\00.Diffuse">
+      <UniqueIdentifier>{63c9f59b-f7aa-4c2e-9087-6afdd2fb08b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\01.Texutre">
+      <UniqueIdentifier>{b013ff05-4718-4ec4-a5e4-d193b761546a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\02.Illuminated">
+      <UniqueIdentifier>{1a84c8a9-63c1-4fb7-9582-ccadcb51821c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\10.AABB">
+      <UniqueIdentifier>{ebd59708-ff11-4c23-b2fe-a4a17be91440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\21.HDR">
+      <UniqueIdentifier>{60f3d0a3-81d0-42df-9b3f-dce109c8f81f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\25.Final_Path">
+      <UniqueIdentifier>{c92a121e-edb8-428a-bcc5-5fd439fa7761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\03.IlluminatedTextured">
+      <UniqueIdentifier>{7c519307-b905-4a71-89d5-7d5ecb8f84f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\05.Light">
+      <UniqueIdentifier>{1bcc9a5c-8502-4d5d-947f-0d402d313b8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\05.Light\DirLight">
+      <UniqueIdentifier>{aecb4aa8-116a-48f2-9335-0745a8b58b69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\05.Light\SpotLight">
+      <UniqueIdentifier>{e876447d-05ed-4b7f-bb65-8e10f21eaebd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\05.Light\PointLight">
+      <UniqueIdentifier>{ec95eba6-276a-4637-96d3-8eddc6b16e1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\05.Light\CapsuleLight">
+      <UniqueIdentifier>{da9e7f9f-bedf-4c2e-981d-a148979d96bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\26.Bloom">
+      <UniqueIdentifier>{7308c792-4496-4e2b-a63c-f18657fd5dc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\04.TBN">
+      <UniqueIdentifier>{12d40b78-fa01-4df0-8d37-1d0b6b040821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03.Resource\Surface">
+      <UniqueIdentifier>{170fca8b-b224-4c0c-9574-5dd0977693af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\07.Terrain_tess">
+      <UniqueIdentifier>{b304b322-ceee-4531-8cef-026c9a6cb70e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="Prev_Codes.txt">
+      <Filter>Source Files\00.Etc</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Source\Bow-Man_Engine3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Timer.cpp">
+      <Filter>Source Files\04.Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\stdafx.cpp">
+      <Filter>Source Files\00.Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\D2DFramework.cpp">
+      <Filter>Source Files\01.Framework\2DFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UiObject.cpp">
+      <Filter>Source Files\01.Framework\2DFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UiComponent.cpp">
+      <Filter>Source Files\01.Framework\2DFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Bow-Man_Engine3.cpp">
+      <Filter>Source Files\01.Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UtilityFunction.cpp">
+      <Filter>Source Files\00.Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object.cpp">
+      <Filter>Source Files\05.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ObjectStrategy.cpp">
+      <Filter>Source Files\05.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ImeFramework.cpp">
+      <Filter>Source Files\01.Framework\Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ChatDataBase.cpp">
+      <Filter>Source Files\01.Framework\Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene.cpp">
+      <Filter>Source Files\06.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera.cpp">
+      <Filter>Source Files\05.Object\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player.cpp">
+      <Filter>Source Files\05.Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Light.cpp">
+      <Filter>Source Files\05.Object\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ServerFramework.cpp">
+      <Filter>Source Files\99.Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework.cpp">
+      <Filter>Source Files\01.Framework\Main Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\InputFramework.cpp">
+      <Filter>Source Files\01.Framework\Input Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mesh.cpp">
+      <Filter>Source Files\03.Resource\ModelData</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Model.cpp">
+      <Filter>Source Files\03.Resource\ModelData</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GmtryEnum.cpp">
+      <Filter>Source Files\03.Resource\ModelData</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer.cpp">
+      <Filter>Source Files\03.Resource\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ModelHomo.cpp">
+      <Filter>Source Files\03.Resource\ModelData</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ModelAssembly.cpp">
+      <Filter>Source Files\03.Resource\ModelData</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ConstantBuffer.cpp">
+      <Filter>Source Files\03.Resource\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Picking.cpp">
+      <Filter>Source Files\03.Resource\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RenderState.cpp">
+      <Filter>Source Files\03.Resource\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CFBXLoader.cpp">
+      <Filter>Source Files\03.Resource\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sound.cpp">
+      <Filter>Source Files\03.Resource\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ParallelPivot.cpp">
+      <Filter>Source Files\01.Framework\Main Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\HeightMap.cpp">
+      <Filter>Source Files\03.Resource\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Material.cpp">
+      <Filter>Source Files\03.Resource\Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Texture.cpp">
+      <Filter>Source Files\03.Resource\Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shader.cpp">
+      <Filter>Source Files\03.Resource\Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ResourceData.cpp">
+      <Filter>Source Files\03.Resource\Surface</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Timer.h">
+      <Filter>Source Files\04.Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\stdafx.h">
+      <Filter>Source Files\00.Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\targetver.h">
+      <Filter>Source Files\00.Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\D2DFramework.h">
+      <Filter>Source Files\01.Framework\2DFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UiObject.h">
+      <Filter>Source Files\01.Framework\2DFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UiComponent.h">
+      <Filter>Source Files\01.Framework\2DFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Bow-Man_Engine3.h">
+      <Filter>Source Files\01.Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UtilityFunction.h">
+      <Filter>Source Files\00.Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object.h">
+      <Filter>Source Files\05.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ObjectStrategy.h">
+      <Filter>Source Files\05.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ImeFramework.h">
+      <Filter>Source Files\01.Framework\Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ChatDataBase.h">
+      <Filter>Source Files\01.Framework\Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene.h">
+      <Filter>Source Files\06.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera.h">
+      <Filter>Source Files\05.Object\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Player.h">
+      <Filter>Source Files\05.Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Light.h">
+      <Filter>Source Files\05.Object\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ServerFramework.h">
+      <Filter>Source Files\99.Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework.h">
+      <Filter>Source Files\01.Framework\Main Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\InputFramework.h">
+      <Filter>Source Files\01.Framework\Input Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mesh.h">
+      <Filter>Source Files\03.Resource\ModelData</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Model.h">
+      <Filter>Source Files\03.Resource\ModelData</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GmtryEnum.h">
+      <Filter>Source Files\03.Resource\ModelData</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer.h">
+      <Filter>Source Files\03.Resource\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ModelHomo.h">
+      <Filter>Source Files\03.Resource\ModelData</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ModelAssembly.h">
+      <Filter>Source Files\03.Resource\ModelData</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ConstantBuffer.h">
+      <Filter>Source Files\03.Resource\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Picking.h">
+      <Filter>Source Files\03.Resource\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RenderState.h">
+      <Filter>Source Files\03.Resource\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CFBXLoader.h">
+      <Filter>Source Files\03.Resource\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sound.h">
+      <Filter>Source Files\03.Resource\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ParallelPivot.h">
+      <Filter>Source Files\01.Framework\Main Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HeightMap.h">
+      <Filter>Source Files\03.Resource\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Material.h">
+      <Filter>Source Files\03.Resource\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Texture.h">
+      <Filter>Source Files\03.Resource\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Shader.h">
+      <Filter>Source Files\03.Resource\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ResourceData.h">
+      <Filter>Source Files\03.Resource\Surface</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\Texture.hlsli">
+      <Filter>HLSL\99.Header</Filter>
+    </None>
+    <None Include="Shader\GBuffer.hlsli">
+      <Filter>HLSL\99.Header</Filter>
+    </None>
+    <None Include="Shader\Function.hlsli">
+      <Filter>HLSL\99.Header</Filter>
+    </None>
+    <None Include="Shader\ConstantBuffer.hlsli">
+      <Filter>HLSL\99.Header</Filter>
+    </None>
+    <None Include="Shader\HDR.hlsli">
+      <Filter>HLSL\21.HDR</Filter>
+    </None>
+    <None Include="Shader\Bloom.hlsli">
+      <Filter>HLSL\26.Bloom</Filter>
+    </None>
+    <None Include="Shader\PointLight.hlsli">
+      <Filter>HLSL\05.Light\PointLight</Filter>
+    </None>
+    <None Include="Shader\DirLight.hlsli">
+      <Filter>HLSL\05.Light\DirLight</Filter>
+    </None>
+    <None Include="Shader\SpotLight.hlsli">
+      <Filter>HLSL\05.Light\SpotLight</Filter>
+    </None>
+    <None Include="..\..\Resource\Default\normal_cursor.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shader\Terrain.hlsli">
+      <Filter>HLSL\07.Terrain_tess</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shader\CS_DownScaleSecondPass.hlsl">
+      <Filter>HLSL\21.HDR</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\CS_DownScaleFirstPass.hlsl">
+      <Filter>HLSL\21.HDR</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\PS_Diffused.hlsl">
+      <Filter>HLSL\00.Diffuse</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\VS_Diffused.hlsl">
+      <Filter>HLSL\00.Diffuse</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\PS_FinalPath.hlsl">
+      <Filter>HLSL\25.Final_Path</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\VS_FinalPath.hlsl">
+      <Filter>HLSL\25.Final_Path</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\PS_Illuminated.hlsl">
+      <Filter>HLSL\02.Illuminated</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\VS_Illuminated.hlsl">
+      <Filter>HLSL\02.Illuminated</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\PS_IlluminatedTextured.hlsl">
+      <Filter>HLSL\03.IlluminatedTextured</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\VS_IlluminatedTextured.hlsl">
+      <Filter>HLSL\03.IlluminatedTextured</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\PS_Textured.hlsl">
+      <Filter>HLSL\01.Texutre</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\VS_Textured.hlsl">
+      <Filter>HLSL\01.Texutre</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\PS_IlluminatedTextured_Deferred.hlsl">
+      <Filter>HLSL\03.IlluminatedTextured</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\PS_Illuminated_Deferred.hlsl">
+      <Filter>HLSL\02.Illuminated</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\PS_DirLight.hlsl">
+      <Filter>HLSL\05.Light\DirLight</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\VS_DirLight.hlsl">
+      <Filter>HLSL\05.Light\DirLight</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\CS_BloomFactor.hlsl">
+      <Filter>HLSL\26.Bloom</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\CS_BloomHorizontal.hlsl">
+      <Filter>HLSL\26.Bloom</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\CS_BloomVerticle.hlsl">
+      <Filter>HLSL\26.Bloom</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\VS_Skybox.hlsl">
+      <Filter>HLSL\01.Texutre</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\PS_Skybox.hlsl">
+      <Filter>HLSL\01.Texutre</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\DS_PointLight.hlsl">
+      <Filter>HLSL\05.Light\PointLight</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\HS_PointLight.hlsl">
+      <Filter>HLSL\05.Light\PointLight</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\PS_PointLight.hlsl">
+      <Filter>HLSL\05.Light\PointLight</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\VS_PointLight.hlsl">
+      <Filter>HLSL\05.Light\PointLight</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\DS_SpotLight.hlsl">
+      <Filter>HLSL\05.Light\SpotLight</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\HS_SpotLight.hlsl">
+      <Filter>HLSL\05.Light\SpotLight</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\PS_SpotLight.hlsl">
+      <Filter>HLSL\05.Light\SpotLight</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\VS_SpotLight.hlsl">
+      <Filter>HLSL\05.Light\SpotLight</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\VS_Tbn.hlsl">
+      <Filter>HLSL\04.TBN</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\PS_Tbn_Deferred.hlsl">
+      <Filter>HLSL\04.TBN</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\DS_Terrain.hlsl">
+      <Filter>HLSL\07.Terrain_tess</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\HS_Terrain.hlsl">
+      <Filter>HLSL\07.Terrain_tess</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\VS_Terrain.hlsl">
+      <Filter>HLSL\07.Terrain_tess</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\PS_Terrain_Deferred.hlsl">
+      <Filter>HLSL\07.Terrain_tess</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\PS_Terrain_Foward.hlsl">
+      <Filter>HLSL\07.Terrain_tess</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\PS_Terrain_Normal.hlsl">
+      <Filter>HLSL\07.Terrain_tess</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\VS_Terrain_Normal.hlsl">
+      <Filter>HLSL\07.Terrain_tess</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Source\Bow-Man_Engine3.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
