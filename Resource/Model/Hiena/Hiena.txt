@@ -1,0 +1,12 @@
+attack 0 ~ 38
+
+run 48 ~ 74
+
+walk 84 ~ 120
+
+idle 130 ~ 200
+
+jump 210 ~ 256
+	jump - ing ( 230 ~ 240 )
+
+dead 266 ~ 326

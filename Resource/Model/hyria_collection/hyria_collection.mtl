@@ -1,0 +1,438 @@
+# 
+# Wavefront material file
+# Converted by the DEEP Exploration  Deep Exploration 6.5 x64 6.5.0.9182
+# Right Hemisphere, LTD
+# http://www.righthemisphere.com/
+# 
+
+newmtl ar0600ah
+Ka 0.8 0.8 0.8
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 2
+map_Kd back05l.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl ar0600db
+Ka 0.8 0.8 0.8
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 2
+map_Kd floor_rm7.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl ar0600_082
+Ka 0.8 0.8 0.8
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 2
+map_Kd floor_rm7.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl ar0794db
+Ka 0.8 0.8 0.8
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 2
+map_Kd marble_05.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl ar0794_087
+Ka 0.8 0.8 0.8
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 2
+map_Kd marble_05.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl ARCorImpos
+Ka 0.8 0.8 0.8
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 2
+map_Kd marble_02.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl ARCorI_078
+Ka 0.8 0.8 0.8
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 2
+map_Kd marble_02.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Obj_000001
+Ka 0.8 0.8 0.8
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 2
+map_Kd godot_gold.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Obj_000002
+Ka 0.8 0.8 0.8
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 2
+map_Kd a3.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Obj_000003
+Ka 0.8 0.8 0.8
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 2
+map_Kd terzosx1.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Obj_000004
+Ka 0.8 0.8 0.8
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 2
+map_Kd terzosx1.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Obj_000005
+Ka 0.8 0.8 0.8
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 2
+map_Kd floor_rm9.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Obj_000069
+Ka 0.8 0.8 0.8
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 2
+map_Kd wall_floor023.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Obj_000071
+Ka 0.8 0.8 0.8
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 2
+map_Kd wall_floor023.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Obj_000072
+Ka 0.8 0.8 0.8
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 2
+map_Kd wall_floor023.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Obj_000073
+Ka 0.8 0.8 0.8
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 2
+map_Kd wall_floor023.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Obj_000076
+Ka 0.8 0.8 0.8
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 2
+map_Kd marble_02.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Obj_000077
+Ka 0.639216 0.639216 0.639216
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 2
+map_Kd lightpink.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Obj_000089
+Ka 0.639216 0.639216 0.639216
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 2
+map_Kd 1abwhite.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl RWX_0
+Ka 0.639216 0.639216 0.639216
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 2
+map_Kd seamless_marble_2.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl RWX_0_074
+Ka 0.639216 0.639216 0.639216
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 2
+map_Kd lightpink.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl RWX_0_081
+Ka 0.639216 0.639216 0.639216
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 2
+map_Kd seamless_marble_2.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl RWX_0_083
+Ka 0.639216 0.639216 0.639216
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 2
+map_Kd seamless_marble_2.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl RWX_0_084
+Ka 0.639216 0.639216 0.639216
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 2
+map_Kd marb11.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl RWX_0_085
+Ka 0.639216 0.639216 0.639216
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 2
+map_Kd whitecatram.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl RWX_0_088
+Ka 0.639216 0.639216 0.639216
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 2
+map_Kd wall_floor014.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl RWX_1
+Ka 0.639216 0.639216 0.639216
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 2
+map_Kd erechteion3.jpg
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
